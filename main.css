@@ -4,6 +4,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: Verdana, Arial, sans-serif;
 }
 
 header {
@@ -17,7 +18,7 @@ header {
 ul {
     display: flex;
     margin: 8px;
-    gap: 10px;
+    gap: 25px;
     padding: 0;
     list-style: none;
     text-decoration: none;
@@ -39,7 +40,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1f2937;
+    background-color: #1b1212;
     color: white;
     height: 50px;
     margin-top: auto;
@@ -59,12 +60,40 @@ a {
 .intro-header-text {
     display: flex;
     padding: 50px;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-evenly;
+    gap: 150px;
 }
 
 .section-pictures {
     display: flex;
     justify-content: space-between;
     gap: 8px;
+}
+
+#header-image {
+    max-width: 50%;
+    height: auto;
+    opacity: 0.7;
+}
+
+#header-title {
+    font-size: 58px;
+    font-style: italic;
+}
+
+#title-bar {
+    font-size: 24px;
+}
+
+#header-signup-button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #3882f6;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 24px;
+    padding: 20px;
+    width: 200px;
+    margin: 5px;
 }
