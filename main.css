@@ -114,6 +114,16 @@ figure {
     font-style: italic;
 }
 
+.main-quote {
+    display: flex;
+    padding: 15px;
+    background-color: #1b1212;
+    color:white;
+    font-size: 20px;
+    border-radius: 15px;
+    justify-content: end;
+}
+
 #header-image {
     max-width: 100vh;
     height: auto;
