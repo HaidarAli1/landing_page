@@ -29,7 +29,7 @@ main {
     flex-direction: column;
     align-items: center;
     flex-grow: 1;
-    padding: 0 50px 0 50px;
+    padding: 0 50px 50px 50px;
     background-color: #d7a88b;
     color: black;
 }
@@ -41,7 +41,7 @@ footer {
     background-color: #1b1212;
     color: white;
     height: 50px;
-    margin-top: auto;
+    margin-top: calc(auto);
 }
 
 a {
@@ -115,13 +115,43 @@ figure {
 }
 
 .main-quote {
-    display: flex;
     padding: 15px;
     background-color: #1b1212;
     color:white;
     font-size: 20px;
     border-radius: 15px;
     justify-content: end;
+}
+
+.main-quoter-journalist {
+    font-size: 20px;
+    color: black;
+    align-self: flex-end;
+}
+
+.header-signup-button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #3882f6;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 24px;
+    padding: 20px;
+    width: 200px;
+    margin: 5px;
+}
+
+.call-to-action {
+    display: flex;
+    color: white;
+    background-color: #1b1212;
+    padding: 10px;
+    padding-right: 15px;
+    width: 600px;
+    justify-content: space-between;
+    border-radius: 15px;
+    gap: 8px;
 }
 
 #header-image {
@@ -144,21 +174,21 @@ figure {
     font-style: italic;
 }
 
-#header-signup-button {
-    display: inline-block;
-    border-radius: 4px;
-    background-color: #3882f6;
-    border: none;
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 24px;
-    padding: 20px;
-    width: 200px;
-    margin: 5px;
-}
-
 #euro-car {
     display: inline;
     font-style: bold;
     color: #EFCFA0;
+}
+
+#call-signup-button {
+    font-size: 15px;
+    background-color:#EFCFA0;
+    color: black;
+    font-style: bold;
+    width: 130px;
+    padding: 0;
+    margin: 0;
+    border-radius: 15px;
+    height: 30px;
+    align-self: center;
 }
