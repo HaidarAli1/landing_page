@@ -62,23 +62,27 @@ img {
     align-items: center;
 }
 
-.intro-header-text {
+.intro-header {
     display: flex;
     padding: 50px;
     justify-content: space-evenly;
     gap: 150px;
 }
 
+.header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; 
+}
+
 .top-section-images {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     gap: 8px;
 }
 
 .bottom-section-images {
     display: flex;
-
+    gap: 8px;
 }
 
 #header-image {
@@ -91,6 +95,8 @@ img {
 #header-title {
     font-size: 58px;
     font-style: italic;
+    margin: 0;
+    padding: 0;
 }
 
 #title-bar {
