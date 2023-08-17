@@ -30,7 +30,8 @@ main {
     align-items: center;
     flex-grow: 1;
     padding: 0 50px 0 50px;
-    background-color: #d3d3d3;
+    background-color: #d7a88b;
+    color: black;
 }
 
 footer {
