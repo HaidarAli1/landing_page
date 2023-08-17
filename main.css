@@ -54,7 +54,7 @@ a {
 
 img {
     max-width: 100%;
-    height: auto;
+    max-height: 747px;
 }
 
 .top-navbar {
@@ -70,10 +70,16 @@ img {
     gap: 150px;
 }
 
-.section-pictures {
+.top-section-images {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 8px;
+}
+
+.bottom-section-images {
+    display: flex;
+
 }
 
 #header-image {
